@@ -107,12 +107,14 @@ const Header = () => {
                             flexGrow: 1,
                             fontFamily: 'monospace',
                             fontWeight: 700,
+                            fontSize: '1rem',
                             letterSpacing: '.3rem',
                             color: 'inherit',
                             textDecoration: 'none',
+                            textTransform: 'uppercase'
                         }}
                     >
-                        LOGO
+                        Farm Sensors
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
