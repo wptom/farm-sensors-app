@@ -9,7 +9,6 @@ const SensorDetail = () => {
     return (
         <Container fixed component="section">
             <Typography variant="h5" component="h2" mb={2}>{data.name}</Typography>
-            <Typography className="card__description" variant="body1" component="p" mb={2}>{data.description}</Typography>
             <Typography variant="body1" component="p"><strong>Long:</strong> {data.coordinates[0]}</Typography>
             <Typography variant="body1" component="p" mb={5}><strong>Lat:</strong> {data.coordinates[1]}</Typography>
             <MapComponent sensor={data}/>
